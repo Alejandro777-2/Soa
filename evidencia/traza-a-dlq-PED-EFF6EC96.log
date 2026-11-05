@@ -1,0 +1,16 @@
+﻿21:08:56.853 [email-worker-1] EmailWorker | pedidoId=PED-EFF6EC96 | No se envia e-mail (evento order.created sin pago confirmado)
+21:08:56.855 [http-producer-7] OrderProducer | pedidoId=PED-EFF6EC96 | Pedido creado y publicado (order.created), cliente=Cliente8, total=345.5
+21:08:57.018 [payment-worker-1] PaymentWorker | pedidoId=PED-EFF6EC96 | Intento de cobro 1/4
+21:08:57.019 [payment-worker-1] PaymentWorker | pedidoId=PED-EFF6EC96 | Cobro RECHAZADO (intento 1/4)
+21:08:57.020 [payment-worker-1] PaymentWorker | pedidoId=PED-EFF6EC96 | Reintento #1 -> payment.retry.queue (TTL 2000ms)
+21:08:59.059 [payment-worker-2] PaymentWorker | pedidoId=PED-EFF6EC96 | Intento de cobro 2/4
+21:08:59.061 [payment-worker-2] PaymentWorker | pedidoId=PED-EFF6EC96 | Cobro RECHAZADO (intento 2/4)
+21:08:59.062 [payment-worker-2] PaymentWorker | pedidoId=PED-EFF6EC96 | Reintento #2 -> payment.retry.queue (TTL 2000ms)
+21:09:01.064 [payment-worker-2] PaymentWorker | pedidoId=PED-EFF6EC96 | Intento de cobro 3/4
+21:09:01.065 [payment-worker-2] PaymentWorker | pedidoId=PED-EFF6EC96 | Cobro RECHAZADO (intento 3/4)
+21:09:01.065 [payment-worker-2] PaymentWorker | pedidoId=PED-EFF6EC96 | Reintento #3 -> payment.retry.queue (TTL 2000ms)
+21:09:03.069 [payment-worker-1] PaymentWorker | pedidoId=PED-EFF6EC96 | Intento de cobro 4/4
+21:09:03.071 [payment-worker-1] PaymentWorker | pedidoId=PED-EFF6EC96 | Cobro RECHAZADO (intento 4/4)
+21:09:03.071 [payment-worker-1] PaymentWorker | pedidoId=PED-EFF6EC96 | Maximo de reintentos agotado -> order.payment_failed (FAILED), enviando a DLQ via bikestore.dlx (payment.dlq)
+21:09:03.075 [email-worker-1] EmailWorker | pedidoId=PED-EFF6EC96 | No se envia e-mail (paymentStatus=FAILED)
+21:09:41.148 [main] DlqInspector | pedidoId=PED-EFF6EC96 | DLQ #1 | cliente=Cliente8 | total=345.5 | reintentos=3

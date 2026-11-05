@@ -1,0 +1,15 @@
+﻿=== Metricas BikeStore Async v1.0 ===
+Generado: 2026-11-04T21:27:49.4720263-05:00
+Fuente: logs/*.log de esta ejecucion (sin edicion)
+
+Pedidos aceptados (HTTP 202)..............: 20
+Peticiones invalidas rechazadas (HTTP 400): 2
+Cobros rechazados con reintento...........: 20
+Cobros aprobados..........................: 19
+E-mails de confirmacion enviados..........: 19
+Pedidos en la DLQ (payment.dlq)...........: 1
+Pedidos sin e-mail por FAILED.............: 1
+
+--- Verificaciones ---
+aprobados + DLQ = 20  (debe ser 20) -> OK
+emails = aprobados -> 19 = 19 -> OK

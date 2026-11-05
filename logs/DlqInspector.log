@@ -1,0 +1,6 @@
+21:09:41.031 [main] DlqInspector | pedidoId=- | Inspeccionando payment.dlq ...
+21:09:41.148 [main] DlqInspector | pedidoId=PED-EFF6EC96 | DLQ #1 | cliente=Cliente8 | total=345.5 | reintentos=3
+21:09:41.154 [main] DlqInspector | pedidoId=- | Total de mensajes en payment.dlq: 1 (devueltos a la cola)
+21:26:49.377 [main] DlqInspector | pedidoId=- | Inspeccionando payment.dlq ...
+21:26:49.494 [main] DlqInspector | pedidoId=PED-EFF6EC96 | DLQ #1 | cliente=Cliente8 | total=345.5 | reintentos=3
+21:26:49.500 [main] DlqInspector | pedidoId=- | Total de mensajes en payment.dlq: 1 (devueltos a la cola)

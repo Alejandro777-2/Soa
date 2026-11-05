@@ -1,0 +1,5 @@
+﻿21:08:57.169 [email-worker-1] EmailWorker | pedidoId=PED-57F2232A | No se envia e-mail (evento order.created sin pago confirmado)
+21:08:57.169 [http-producer-7] OrderProducer | pedidoId=PED-57F2232A | Pedido creado y publicado (order.created), cliente=Cliente16, total=345.5
+21:08:57.210 [payment-worker-2] PaymentWorker | pedidoId=PED-57F2232A | Intento de cobro 1/4
+21:08:57.211 [payment-worker-2] PaymentWorker | pedidoId=PED-57F2232A | Cobro EXITOSO -> publicado order.paid (PAID)
+21:08:57.212 [email-worker-1] EmailWorker | pedidoId=PED-57F2232A | Enviando e-mail de confirmacion a Cliente16 (simulado)

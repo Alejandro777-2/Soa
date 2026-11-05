@@ -1,0 +1,24 @@
+=== Envio 2026-11-04T21:08:56.2904950-05:00 ===
+Pedido 1 -> HTTP 202
+Pedido 2 -> HTTP 202
+Pedido 3 -> HTTP 202
+Pedido 4 -> HTTP 202
+Pedido 5 -> HTTP 202
+Pedido 6 -> HTTP 202
+Pedido 7 -> HTTP 202
+Pedido 8 -> HTTP 202
+Pedido 9 -> HTTP 202
+Pedido 10 -> HTTP 202
+Pedido 11 -> HTTP 202
+Pedido 12 -> HTTP 202
+Pedido 13 -> HTTP 202
+Pedido 14 -> HTTP 202
+Pedido 15 -> HTTP 202
+Pedido 16 -> HTTP 202
+Pedido 17 -> HTTP 202
+Pedido 18 -> HTTP 202
+Pedido 19 -> HTTP 202
+Pedido 20 -> HTTP 202
+--- invalidos ---
+Invalido 1 (cliente vacio, items vacios) -> HTTP 400
+Invalido 2 (cantidad negativa) -> HTTP 400

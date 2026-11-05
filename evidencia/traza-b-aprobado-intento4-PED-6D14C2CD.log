@@ -1,0 +1,14 @@
+﻿21:08:56.659 [http-producer-3] OrderProducer | pedidoId=PED-6D14C2CD | Pedido creado y publicado (order.created), cliente=Cliente2, total=345.5
+21:08:56.811 [payment-worker-1] PaymentWorker | pedidoId=PED-6D14C2CD | Intento de cobro 1/4
+21:08:56.821 [email-worker-1] EmailWorker | pedidoId=PED-6D14C2CD | No se envia e-mail (evento order.created sin pago confirmado)
+21:08:56.824 [payment-worker-1] PaymentWorker | pedidoId=PED-6D14C2CD | Cobro RECHAZADO (intento 1/4)
+21:08:56.827 [payment-worker-1] PaymentWorker | pedidoId=PED-6D14C2CD | Reintento #1 -> payment.retry.queue (TTL 2000ms)
+21:08:58.867 [payment-worker-2] PaymentWorker | pedidoId=PED-6D14C2CD | Intento de cobro 2/4
+21:08:58.869 [payment-worker-2] PaymentWorker | pedidoId=PED-6D14C2CD | Cobro RECHAZADO (intento 2/4)
+21:08:58.870 [payment-worker-2] PaymentWorker | pedidoId=PED-6D14C2CD | Reintento #2 -> payment.retry.queue (TTL 2000ms)
+21:09:00.871 [payment-worker-2] PaymentWorker | pedidoId=PED-6D14C2CD | Intento de cobro 3/4
+21:09:00.872 [payment-worker-2] PaymentWorker | pedidoId=PED-6D14C2CD | Cobro RECHAZADO (intento 3/4)
+21:09:00.873 [payment-worker-2] PaymentWorker | pedidoId=PED-6D14C2CD | Reintento #3 -> payment.retry.queue (TTL 2000ms)
+21:09:02.880 [payment-worker-1] PaymentWorker | pedidoId=PED-6D14C2CD | Intento de cobro 4/4
+21:09:02.882 [payment-worker-1] PaymentWorker | pedidoId=PED-6D14C2CD | Cobro EXITOSO -> publicado order.paid (PAID)
+21:09:02.883 [email-worker-1] EmailWorker | pedidoId=PED-6D14C2CD | Enviando e-mail de confirmacion a Cliente2 (simulado)

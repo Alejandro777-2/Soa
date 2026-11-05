@@ -1,0 +1,6 @@
+=== estado de colas (post-test) Wed Nov  4 21:12:33 -05 2026 ===
+name	messages	messages_ready
+payment.retry.queue	0	0
+email.queue	0	0
+payment.dlq	1	1
+payment.queue	0	0

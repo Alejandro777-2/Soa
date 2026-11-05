@@ -1,0 +1,24 @@
+21:08:34.385 [main] OrderProducer | pedidoId=- | API escuchando en http://localhost:8080/api/orders
+21:08:56.578 [http-producer-1] OrderProducer | pedidoId=PED-C1BF6F9A | Pedido creado y publicado (order.created), cliente=Cliente1, total=345.5
+21:08:56.659 [http-producer-3] OrderProducer | pedidoId=PED-6D14C2CD | Pedido creado y publicado (order.created), cliente=Cliente2, total=345.5
+21:08:56.699 [http-producer-5] OrderProducer | pedidoId=PED-8AB557B7 | Pedido creado y publicado (order.created), cliente=Cliente3, total=345.5
+21:08:56.729 [http-producer-7] OrderProducer | pedidoId=PED-8F34EE84 | Pedido creado y publicado (order.created), cliente=Cliente4, total=345.5
+21:08:56.769 [http-producer-1] OrderProducer | pedidoId=PED-FA2A446C | Pedido creado y publicado (order.created), cliente=Cliente5, total=345.5
+21:08:56.800 [http-producer-3] OrderProducer | pedidoId=PED-7F9B3AF0 | Pedido creado y publicado (order.created), cliente=Cliente6, total=345.5
+21:08:56.827 [http-producer-5] OrderProducer | pedidoId=PED-1906619F | Pedido creado y publicado (order.created), cliente=Cliente7, total=345.5
+21:08:56.855 [http-producer-7] OrderProducer | pedidoId=PED-EFF6EC96 | Pedido creado y publicado (order.created), cliente=Cliente8, total=345.5
+21:08:56.884 [http-producer-1] OrderProducer | pedidoId=PED-B6747353 | Pedido creado y publicado (order.created), cliente=Cliente9, total=345.5
+21:08:56.919 [http-producer-3] OrderProducer | pedidoId=PED-6A2AD790 | Pedido creado y publicado (order.created), cliente=Cliente10, total=345.5
+21:08:56.970 [http-producer-5] OrderProducer | pedidoId=PED-91433900 | Pedido creado y publicado (order.created), cliente=Cliente11, total=345.5
+21:08:57.017 [http-producer-7] OrderProducer | pedidoId=PED-A3DE4F4C | Pedido creado y publicado (order.created), cliente=Cliente12, total=345.5
+21:08:57.062 [http-producer-1] OrderProducer | pedidoId=PED-FD86CFFD | Pedido creado y publicado (order.created), cliente=Cliente13, total=345.5
+21:08:57.091 [http-producer-3] OrderProducer | pedidoId=PED-73A7FC3C | Pedido creado y publicado (order.created), cliente=Cliente14, total=345.5
+21:08:57.116 [http-producer-5] OrderProducer | pedidoId=PED-63268357 | Pedido creado y publicado (order.created), cliente=Cliente15, total=345.5
+21:08:57.169 [http-producer-7] OrderProducer | pedidoId=PED-57F2232A | Pedido creado y publicado (order.created), cliente=Cliente16, total=345.5
+21:08:57.218 [http-producer-1] OrderProducer | pedidoId=PED-98AD5899 | Pedido creado y publicado (order.created), cliente=Cliente17, total=345.5
+21:08:57.266 [http-producer-3] OrderProducer | pedidoId=PED-5C04CE0F | Pedido creado y publicado (order.created), cliente=Cliente18, total=345.5
+21:08:57.316 [http-producer-5] OrderProducer | pedidoId=PED-9E41FF23 | Pedido creado y publicado (order.created), cliente=Cliente19, total=345.5
+21:08:57.375 [http-producer-7] OrderProducer | pedidoId=PED-8F78466A | Pedido creado y publicado (order.created), cliente=Cliente20, total=345.5
+21:08:57.418 [http-producer-1] OrderProducer | pedidoId=- | Pedido invalido rechazado (400): cliente requerido
+21:08:57.450 [http-producer-3] OrderProducer | pedidoId=- | Pedido invalido rechazado (400): cantidad invalida
+21:22:31.710 [main] OrderProducer | pedidoId=- | API escuchando en http://localhost:8080/api/orders

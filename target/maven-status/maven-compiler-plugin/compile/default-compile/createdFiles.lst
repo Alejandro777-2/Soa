@@ -1,0 +1,8 @@
+com\bikestore\OrderProducer.class
+com\bikestore\EmailWorker.class
+com\bikestore\Log.class
+com\bikestore\Rabbit.class
+com\bikestore\DlqInspector.class
+com\bikestore\PaymentWorker.class
+com\bikestore\Json.class
+com\bikestore\Main.class
